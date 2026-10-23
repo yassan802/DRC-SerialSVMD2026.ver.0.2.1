@@ -22757,7 +22757,7 @@
 		)
 	)
 	(gr_text "USB\nServo"
-		(at 47.371 8.763 180)
+		(at 42.926 11.43 0)
 		(layer "F.SilkS")
 		(uuid "50e916a6-af43-4454-be22-86a74a4ef1be")
 		(effects
