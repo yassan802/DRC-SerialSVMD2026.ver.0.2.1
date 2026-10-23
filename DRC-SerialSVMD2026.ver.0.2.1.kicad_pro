@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../plots/DRC-SVMD2026_pico/DRC-SVMD2026_pico_plots/",
+      "plot": "../../plots/DRC-SerialSVMD2026.ver.0.2.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

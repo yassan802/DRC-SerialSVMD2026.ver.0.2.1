@@ -7135,7 +7135,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "1N4148W"
 			(at 133.096 171.45 0)
 			(effects
 				(font

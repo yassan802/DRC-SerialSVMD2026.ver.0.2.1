@@ -1,0 +1,501 @@
+{
+  "board": "C:\\Users\\yasum\\Documents\\Kicad\\DRC-SerialSVMD2026.ver.0.2.1\\DRC-SerialSVMD2026.ver.0.2.1\\DRC-SerialSVMD2026.ver.0.2.1.kicad_pcb",
+  "source_sha256": {
+    "DRC-SerialSVMD2026.ver.0.2.1.kicad_pcb": "b90b8a4e31f9c18e0d4e38f0f366f41ddf3c9dae6869c8e439c1510077dde018",
+    "DRC-SerialSVMD2026.ver.0.2.1.kicad_pro": "8e0e5a2cb4c688a8ca88711ce5a3f980c4c6d66f5ad76c7dafeb98cba7235629",
+    "DRC-SerialSVMD2026.ver.0.2.1.kicad_sch": "fa651d939ddc2fd8576696b397bf527319b99576caeb0552718bf6d3eebf6317",
+    "micro_controller.kicad_sch": "7d2c1d170f78d62df329ee6f97c43111f58e9f3bbfeae9b92d967971d72cdc09",
+    "STSServoDrive.kicad_sch": "1d10b58019fa38f862d76efc6a3c091deb1e842a5831dc6bf0d667ab7518f37c",
+    "USBC_UART.kicad_sch": "3e865dc9afd815809d07197004548d12c8a235996b6d50a0656e3a6c8000f219"
+  },
+  "plugin": "C:\\Users\\yasum\\OneDrive\\ドキュメント\\KiCad\\9.0\\3rdparty\\plugins\\com_github_bennymeg_JLC-Plugin-for-KiCad",
+  "plugin_hashes": {
+    "process.py": "28265e2b8c460d3e45efdd4c313901de3e982d397cec7faa96e6a28539e7a8d9",
+    "utils.py": "f64282f406dd7f82b715b96fd08e8f825a43b9f06ffa44682adf25b50cc0b253",
+    "transformations.csv": "864817b927f727f24913c3d72caab8c7786805d2023b54b5f798f8b50f05e2d6"
+  },
+  "pcb_quantity": 5,
+  "pcba_quantity": 2,
+  "part_numbers": 13,
+  "placements_per_board": 18,
+  "total_placements": 36,
+  "aux_origin_mm": [
+    0.0,
+    0.0
+  ],
+  "coordinates": "mm; X right, Y up; board top-left (0,0) when aux origin is (0,0)",
+  "automatic_translation": true,
+  "placements": [
+    {
+      "ref": "C19",
+      "lcsc": "C19666",
+      "mpn": "CL10A475KO8NNNC",
+      "manufacturer": "Samsung",
+      "export_value": null,
+      "pcb_value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "position_mm": [
+        30.9296,
+        37.6895
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            30.9296,
+            36.9145
+          ],
+          "net": "+1.1V"
+        }
+      ]
+    },
+    {
+      "ref": "C20",
+      "lcsc": "C1548",
+      "mpn": "0402CG150J500NT",
+      "manufacturer": "FH",
+      "export_value": null,
+      "pcb_value": "15p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "position_mm": [
+        17.526,
+        33.81
+      ],
+      "pcb_angle_deg": 90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 90.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            17.526,
+            34.29
+          ],
+          "net": "Net-(U5-XIN)"
+        }
+      ]
+    },
+    {
+      "ref": "C21",
+      "lcsc": "C1548",
+      "mpn": "0402CG150J500NT",
+      "manufacturer": "FH",
+      "export_value": null,
+      "pcb_value": "15p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "position_mm": [
+        17.526,
+        35.786
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            17.526,
+            35.306
+          ],
+          "net": "Net-(C21-Pad1)"
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "lcsc": "C19666",
+      "mpn": "CL10A475KO8NNNC",
+      "manufacturer": "Samsung",
+      "export_value": null,
+      "pcb_value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "position_mm": [
+        29.0955,
+        40.8645
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            29.0955,
+            40.0895
+          ],
+          "net": "Net-(U5-VREG_AVDD)"
+        }
+      ]
+    },
+    {
+      "ref": "C24",
+      "lcsc": "C19666",
+      "mpn": "CL10A475KO8NNNC",
+      "manufacturer": "Samsung",
+      "export_value": null,
+      "pcb_value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "position_mm": [
+        29.464,
+        37.6895
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            29.464,
+            36.9145
+          ],
+          "net": "+3.3V"
+        }
+      ]
+    },
+    {
+      "ref": "L1",
+      "lcsc": "C42411119",
+      "mpn": "AOTA-B201610S3R3-101-T",
+      "manufacturer": "Abracon",
+      "export_value": "AOTA-B201610S3R3-101-T",
+      "pcb_value": "3.3uH",
+      "footprint": "My-Library:abracon_aota-b201610s3r3-101-t",
+      "position_mm": [
+        32.639,
+        37.3776
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            32.639,
+            36.6776
+          ],
+          "net": "+1.1V"
+        }
+      ]
+    },
+    {
+      "ref": "Q1",
+      "lcsc": "C7420354",
+      "mpn": "MMBT3906",
+      "manufacturer": "HJC / hongjiacheng",
+      "export_value": "MMBT3906",
+      "pcb_value": "MMBT3906",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+      "position_mm": [
+        29.2241,
+        14.3256
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 180.0,
+      "cpl_angle_deg": 90.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            30.1741,
+            13.1881
+          ],
+          "net": "Net-(Q1-B)"
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "lcsc": "C25190",
+      "mpn": "0603WAF270JT5E",
+      "manufacturer": "UNI-ROYAL",
+      "export_value": null,
+      "pcb_value": "27R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "position_mm": [
+        33.02,
+        33.782
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 180.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            33.845,
+            33.782
+          ],
+          "net": "USB_D_P"
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "lcsc": "C25190",
+      "mpn": "0603WAF270JT5E",
+      "manufacturer": "UNI-ROYAL",
+      "export_value": null,
+      "pcb_value": "27R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "position_mm": [
+        32.956,
+        35.306
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 180.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            33.781,
+            35.306
+          ],
+          "net": "USB_D_N"
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "lcsc": "C25105",
+      "mpn": "0402WGF330JTCE",
+      "manufacturer": "UNI-ROYAL",
+      "export_value": null,
+      "pcb_value": "33R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "position_mm": [
+        27.4425,
+        40.1025
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 180.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            27.9525,
+            40.1025
+          ],
+          "net": "Net-(U5-VREG_AVDD)"
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "lcsc": "C11702",
+      "mpn": "0402WGF1001TCE",
+      "manufacturer": "UNI-ROYAL",
+      "export_value": null,
+      "pcb_value": "1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "position_mm": [
+        19.052,
+        34.798
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 180.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            19.562,
+            34.798
+          ],
+          "net": "Net-(U5-XOUT)"
+        }
+      ]
+    },
+    {
+      "ref": "SW1",
+      "lcsc": "C720477",
+      "mpn": "TS-1088-AR02016",
+      "manufacturer": "XUNPU",
+      "export_value": "TS-1088-AR02016",
+      "pcb_value": "BOOT",
+      "footprint": "My-Library:SW_TS-1088-AR02016",
+      "position_mm": [
+        31.5976,
+        31.242
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 180.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            33.6726,
+            31.242
+          ],
+          "net": "Net-(R8-Pad1)"
+        }
+      ]
+    },
+    {
+      "ref": "SW2",
+      "lcsc": "C720477",
+      "mpn": "TS-1088-AR02016",
+      "manufacturer": "XUNPU",
+      "export_value": "TS-1088-AR02016",
+      "pcb_value": "RESET",
+      "footprint": "My-Library:SW_TS-1088-AR02016",
+      "position_mm": [
+        14.7828,
+        39.4208
+      ],
+      "pcb_angle_deg": 0.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 0.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            12.7078,
+            39.4208
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "U2",
+      "lcsc": "C71136",
+      "mpn": "78L05G-AB3-R",
+      "manufacturer": "UTC",
+      "export_value": "78L05G-AB3-R",
+      "pcb_value": "78L05G-AB3-R",
+      "footprint": "Package_TO_SOT_SMD:SOT-89-3",
+      "position_mm": [
+        13.716,
+        18.034
+      ],
+      "pcb_angle_deg": 180.0,
+      "toolkit_rotation_offset_deg": 180.0,
+      "cpl_angle_deg": 0.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            15.666,
+            19.534
+          ],
+          "net": "+5VP"
+        }
+      ]
+    },
+    {
+      "ref": "U3",
+      "lcsc": "C7010821",
+      "mpn": "Si8621EC-B-IS",
+      "manufacturer": "Skyworks",
+      "export_value": "Si8621EC-B-IS",
+      "pcb_value": "Si8621EC-B-IS",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "position_mm": [
+        19.304,
+        21.59
+      ],
+      "pcb_angle_deg": 90.0,
+      "toolkit_rotation_offset_deg": 270.0,
+      "cpl_angle_deg": 0.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            17.399,
+            24.065
+          ],
+          "net": "+3.3V"
+        }
+      ]
+    },
+    {
+      "ref": "U5",
+      "lcsc": "C41378174",
+      "mpn": "RP2354A",
+      "manufacturer": "Raspberry Pi",
+      "export_value": "RP2354A",
+      "pcb_value": "RP2354A",
+      "footprint": "My-Library:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias",
+      "position_mm": [
+        24.2695,
+        35.141
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 90.0,
+      "cpl_angle_deg": 0.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            27.0695,
+            31.7035
+          ],
+          "net": "+3.3V"
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "lcsc": "C12084",
+      "mpn": "SN65HVD230DR",
+      "manufacturer": "Texas Instruments",
+      "export_value": "SN65HVD230DR",
+      "pcb_value": "SN65HVD230",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "position_mm": [
+        43.499,
+        28.829
+      ],
+      "pcb_angle_deg": 0.0,
+      "toolkit_rotation_offset_deg": 270.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            41.024,
+            26.924
+          ],
+          "net": "CAN_TX"
+        }
+      ]
+    },
+    {
+      "ref": "Y1",
+      "lcsc": "C20625731",
+      "mpn": "ABM8-272-T3",
+      "manufacturer": "Abracon",
+      "export_value": "ABM8-272-T3",
+      "pcb_value": "12MHz_ABM8-272-T3",
+      "footprint": "My-Library:generic_xtalcc320x250x80-4",
+      "position_mm": [
+        15.367,
+        34.798
+      ],
+      "pcb_angle_deg": -90.0,
+      "toolkit_rotation_offset_deg": 0.0,
+      "cpl_angle_deg": 270.0,
+      "side": "top",
+      "pad1": [
+        {
+          "position_mm": [
+            14.517,
+            33.698
+          ],
+          "net": "Net-(U5-XIN)"
+        }
+      ]
+    }
+  ],
+  "checks_passed": true,
+  "source_unchanged": true,
+  "note": "JLCPCB order-specific placement preview not yet inspected. Final pin-1 orientation must match PCB pads."
+}
